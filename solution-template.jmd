@@ -27,7 +27,7 @@ Pkg.instantiate()
 # Problem 2
 
 ## Problem 2.1
-'''math
+```math
 \begin{alignat*}{2}
 & &\max 100x + 75y\\
 &\text{subject to} & \\
@@ -36,9 +36,7 @@ Pkg.instantiate()
 & & 40x + 20y \leq 300\\
 & & 6x + 12y \leq 80
 \end{alignat*}
-
-'''
-
+```
 ## Problem 2.2
 
 # Problem 3
