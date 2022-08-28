@@ -22,6 +22,10 @@ jobs:
         with:
           files: |
             *.jmd
+      - name: Install Pandoc
+        uses: r-lib/actions/setup-pandoc@v1
+        with:
+          pandoc-version: '2.7.3'
       - name: Install LaTeX
         if: steps.changed-jmd-files.outputs.any_changed == 'true'
         uses: r-lib/actions/setup-tinytex@v2
