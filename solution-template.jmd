@@ -31,7 +31,11 @@ x = 5
 ## Problem 1.2
 "We can see that $xˆ2 =$ `j square number(x)`."
 ## Problem 1.3
+f = square_number;
 
+using Plots
+
+plot(f,-10,10, title="X squared",xlabel="x", ylabel="y= x^2")
 # Problem 2
 
 ## Problem 2.1
